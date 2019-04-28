@@ -1,13 +1,15 @@
 Wrangling Data Flow Functions
 
 Wrangling Data Flow
+-------------------
 
 Wrangling Data Flow in Azure Data Factory integrates with [Power Query
 Online](https://docs.microsoft.com/en-us/powerquery-m/power-query-m-reference)
 and makes the best in class Power Query M functions available for data wrangling
 \@ cloud scale via spark execution.
 
-Column Management:
+Column Management
+-----------------
 
 Selection, Removal, Renaming, and Reordering (corresponding M functions:
 [Table.SelectColumns](https://docs.microsoft.com/en-us/powerquery-m/table-selectcolumns),
