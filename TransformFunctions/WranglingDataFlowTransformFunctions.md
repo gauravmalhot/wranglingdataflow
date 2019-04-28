@@ -1,5 +1,3 @@
-Wrangling Data Flow Functions
-
 Wrangling Data Flow
 -------------------
 
