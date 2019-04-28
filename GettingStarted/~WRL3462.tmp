@@ -32,13 +32,3 @@ Data Flow’
     ready to do code-free data preparation/wrangling.
 
 ![](media/a2d2f300d3039eeb4777ad071f4fb1c4.png)
-
-1.  Click ‘Debug’ to debug a wrangling data flow activity in a pipeline or click
-    ‘trigger now’ to do an on-demand run of last published pipeline
-
-![](media/71c56ab34bca16aedd5862c0baffbd99.png)
-
-1.  Click ‘Monitor’ tab to visualize the output of the triggered wrangling data
-    flow activity run
-
-![](media/425f9f03e8a8e07cbafc6647a152f55d.png)
