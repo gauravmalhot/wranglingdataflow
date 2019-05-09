@@ -6,9 +6,9 @@ FAQs
    Wrangling data flow is currently supported in data factories created in following regions:
    1. East US.
    2. Southeast Asia
-   
+
    ** Other regions are coming in shortly.
-   
+
 2. What are the limitations and contraints with Wrangling data flow?
 
    1. Only Azure Data Lake Storage Gen2 (with only CSV and JSON format) is supported as source dataset.
@@ -16,3 +16,9 @@ FAQs
    3. Sink dataset should only refer to key auth based linked service.
    4. Staging linked service should only be key auth based.
    5. Wrangling dataflow activity must have a staging linked service referenced.
+
+3. What is the difference between Mapping and Wrangling Data Flow?
+
+   Mapping Data Flow is great at “mapping” via column map and transform from a known left side set of data sets to a know right side (e.g. pull a bunch of data and blend them to populate a dimensional model).
+
+   With the rise of data lakes sometimes you just need to explore a data set or you are just asked to create a dataset in the lake that “has all customer demographic info for new customers since 2017”.  In this case you are not “mapping” to a known target , you are just exploring data sets to meet the requirement and then you will publish it in the lake.  These are often used for less formal/modelling analytics scenarios (i.e. data engineer built a data set for ad hoc analysis, data engineer is operationalizing a self-service project built by an information worker, etc). Wrangling Data Flow in ADF allows you to do agile data preparation/exploration. It enables the familiar Power Query Online mashup editor to do data preparation but now at scale via spark execution.
