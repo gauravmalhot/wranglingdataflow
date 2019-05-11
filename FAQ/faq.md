@@ -15,6 +15,7 @@ FAQs
    2. Sink dataset should only refer to key auth based linked service.
    3. Staging linked service should only be key auth based.
    4. Wrangling dataflow activity must have a staging linked service referenced.
+   5. Wrangling data flow is currently not supported in GIT mode.
 
 3. What is the difference between Mapping and Wrangling Data Flow?
 
