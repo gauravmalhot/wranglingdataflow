@@ -22,9 +22,7 @@ Data Flow’
 
 ![](media/6b0b1154c65c9565b58952f8af56e091.png)
 
->   **Note**: Only ADLS Gen 2 Delimited Text datasets with service principal
->   authentication are supported for limited preview. We are working to add
->   support for datasets for other authentication types.
+>   **Note**: Only ADLS Gen 2 Delimited Text are supported for limited preview.
 
 ![](media/bf4ceafb57781dc3c2219391a7260d4f.png)
 
