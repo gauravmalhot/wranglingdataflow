@@ -4,10 +4,21 @@ FAQs
 1. What are the supported regions for Wrangling data flow?
 
    Wrangling data flow is currently supported in data factories created in following regions:
-   1. East US.
-   2. Southeast Asia
-   3. UK South
-   4. North Europe
+   1. Australia East
+   2. Canada Central
+   3. Central India
+   4. Central US
+   5. East US
+   6. East US 2
+   7. Japan East
+   8. North Europe
+   9. Southeast Asia
+   10. South Central US
+   11. UK South
+   12. West Central US
+   13. West Europe
+   14. West US
+   15. West US 2
 
    ** Other regions are coming in shortly.
 
