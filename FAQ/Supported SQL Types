@@ -7,7 +7,7 @@ Wrangling data flow supports the following data types in SQL, for data types tha
 "float"
 "char"
 "nchar"
-    "varchar"
+"varchar"
 "nvarchar"
 "integer"
 "int"
