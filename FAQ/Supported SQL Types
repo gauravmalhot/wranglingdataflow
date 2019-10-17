@@ -1,0 +1,29 @@
+Supported SQL Types
+================================
+Wrangling data flow supports the following data types in SQL, for data types that is not in the list, you will get an validation error:
+"short"
+"double"
+"real"
+"float"
+"char"
+"nchar"
+    "varchar"
+"nvarchar"
+"integer"
+"int"
+"bit"
+"boolean"
+"smallint"
+"tinyint"
+"bigint"
+"long"
+"text"
+"date"
+"datetime"
+"datetime2"
+"smalldatetime"
+"timestamp"
+"uniqueidentifier"
+"xml"
+
+   ** Other data types will be supported shortly.
