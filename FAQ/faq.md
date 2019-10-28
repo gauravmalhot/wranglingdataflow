@@ -20,15 +20,13 @@ FAQs
    14. West US
    15. West US 2
 
-   ** Other regions are coming in shortly.
-
 2. What are the limitations and constraints with Wrangling data flow?
-
-   1. Only Azure Data Lake Storage Gen2 (with only CSV and JSON format) is supported as source dataset.
-   2. Sink dataset should only be v2 dataset types (of CSV and JSON format).
-   2. Sink dataset should only refer to key auth based linked service.
-   3. Staging linked service should only be key auth based.
-   4. Wrangling dataflow activity must have a staging linked service referenced.
+   1. Following type of V2 datasets are supported:
+      1. Azure BLOBs (CSV format only) -> Account key based auth.
+      2. Azure Data Lake Storage Gen2 (CSV format only) -> Account key and Service Principal based auth.
+      3. Azure SQL DB/DW -> UserName/Password auth. Refer https://github.com/gauravmalhot/wranglingdataflow/blob/master/FAQ/Supported%20SQL%20Types for supported SQL data types.
+   2. Sink dataset should only be v2 dataset types.
+   3. No polybase/staging support for SQL DW.
 
 3. What is the difference between Mapping and Wrangling Data Flow?
 
