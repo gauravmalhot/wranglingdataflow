@@ -27,6 +27,7 @@ FAQs
       3. Azure SQL DB/DW -> UserName/Password auth. Refer https://github.com/gauravmalhot/wranglingdataflow/blob/master/FAQ/Supported%20SQL%20Types for supported SQL data types.
    2. Sink dataset should only be v2 dataset types.
    3. No polybase/staging support for SQL DW.
+   4. Key Vault support for linked services in not supported
 
 3. What is the difference between Mapping and Wrangling Data Flow?
 
