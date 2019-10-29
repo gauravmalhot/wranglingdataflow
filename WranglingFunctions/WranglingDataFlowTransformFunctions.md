@@ -7,8 +7,8 @@ with [Power Query
 Online](https://docs.microsoft.com/en-us/powerquery-m/power-query-m-reference)
 and makes the best in class Power Query M functions available for data wrangling
 \@ cloud scale via spark execution. Not all the Power Query M functions are currently
-supported for data wrangling even though they are avaiable during the author time. While
-building your wrangling data flows, user is prompted with thw following error message in
+supported for data wrangling even though they are available during the author time. 
+While building your wrangling data flows, user is prompted with thw following error message in
 case the Power Query M function is not supported by Wrangling Data Flows:
 "The wrangling data flow is invalid. Expression.Error: The transformation logic is not 
 supported. Please try a simpler expression." 
