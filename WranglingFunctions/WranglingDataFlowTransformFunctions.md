@@ -83,7 +83,8 @@ Corresponding M functions:
 -   Most standard, scientific, and trigonometric numeric functions
     (corresponding M functions: All functions under [Operations](https://docs.microsoft.com/en-us/powerquery-m/number-functions#operations),
     [Rounding](https://docs.microsoft.com/en-us/powerquery-m/number-functions#rounding),
-    and [Trigonometry](https://docs.microsoft.com/en-us/powerquery-m/number-functions#trigonometry))
+    and [Trigonometry](https://docs.microsoft.com/en-us/powerquery-m/number-functions#trigonometry), 
+    *except* Number.Factorial, Number.Permutations, and Number.Combinations)
 
 -   Replacement (corresponding M functions:
     [Replacer.ReplaceText](https://docs.microsoft.com/en-us/powerquery-m/replacer-replacetext),
@@ -195,7 +196,5 @@ Notable Unsupported Functionality (not exhaustive; subject to change)
 -   Split column (also can often be worked around, albeit trickier)
 
 -   Append queries
-
--   Changing Column Types
 
 -   “Use first row as headers” or “Use headers as first row”
