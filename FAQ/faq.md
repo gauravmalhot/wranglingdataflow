@@ -25,6 +25,7 @@ FAQs
       1. Azure BLOBs (CSV format only) -> Account key based auth.
       2. Azure Data Lake Storage Gen2 (CSV format only) -> Account key and Service Principal based auth.
       3. Azure SQL DB/DW -> UserName/Password auth. Refer https://github.com/gauravmalhot/wranglingdataflow/blob/master/FAQ/Supported%20SQL%20Types for supported SQL data types.
+      4. Azure Data Lake Storage Gen1 (CSV format only) -> Service Principal based auth
    2. Sink dataset should only be v2 dataset types.
    3. No polybase/staging support for SQL DW.
    4. Key Vault support for linked services in not supported
