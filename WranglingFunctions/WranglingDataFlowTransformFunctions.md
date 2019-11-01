@@ -54,6 +54,7 @@ Adding and Transforming Columns
 Corresponding M functions:
 [Table.AddColumn](https://docs.microsoft.com/en-us/powerquery-m/table-addcolumn),
 [Table.TransformColumns](https://docs.microsoft.com/en-us/powerquery-m/table-transformcolumns),
+[Table.TransformColumnTypes](https://docs.microsoft.com/en-us/powerquery-m/table-transformcolumntypes),
 [Table.ReplaceValue](https://docs.microsoft.com/en-us/powerquery-m/table-replacevalue),
 [Table.DuplicateColumn](https://docs.microsoft.com/en-us/powerquery-m/table-duplicatecolumn)
 
@@ -78,7 +79,14 @@ Corresponding M functions:
        [Duration.TotalDays](https://docs.microsoft.com/en-us/powerquery-m/duration-totaldays),
        [Duration.TotalHours](https://docs.microsoft.com/en-us/powerquery-m/duration-totalhours),
        [Duration.TotalMinutes](https://docs.microsoft.com/en-us/powerquery-m/duration-totalminutes),
-       [Duration.TotalSeconds](https://docs.microsoft.com/en-us/powerquery-m/duration-totalseconds))    
+       [Duration.TotalSeconds](https://docs.microsoft.com/en-us/powerquery-m/duration-totalseconds),
+       [Duration.From](https://docs.microsoft.com/en-us/powerquery-m/duration-from))
+     - Same situation for Time (corresponding M functions:
+       Arithmetic operators,
+       [Time.Hour](https://docs.microsoft.com/en-us/powerquery-m/time-hour),
+       [Time.Minute](https://docs.microsoft.com/en-us/powerquery-m/time-minute),
+       [Time.Second](https://docs.microsoft.com/en-us/powerquery-m/time-second)
+       [Time.From](https://docs.microsoft.com/en-us/powerquery-m/time-from))
 
 -   Most standard, scientific, and trigonometric numeric functions
     (corresponding M functions: All functions under [Operations](https://docs.microsoft.com/en-us/powerquery-m/number-functions#operations),
@@ -118,6 +126,26 @@ Corresponding M functions:
     [Date.DayOfWeek](https://docs.microsoft.com/en-us/powerquery-m/date-dayofweek)
     [Date.DayOfYear](https://docs.microsoft.com/en-us/powerquery-m/date-dayofyear),
     [Date.DaysInMonth](https://docs.microsoft.com/en-us/powerquery-m/date-daysinmonth))
+    
+-   Some type conversions (corresponding M functions:
+    [Number.From](https://docs.microsoft.com/en-us/powerquery-m/number-from),
+    [Number.FromText](https://docs.microsoft.com/en-us/powerquery-m/number-fromtext),
+    [Number.ToText](https://docs.microsoft.com/en-us/powerquery-m/number-totext),
+    [Int16.From](https://docs.microsoft.com/en-us/powerquery-m/int16-from),
+    [Int32.From](https://docs.microsoft.com/en-us/powerquery-m/int32-from),
+    [Int64.From](https://docs.microsoft.com/en-us/powerquery-m/int64-from),
+    [Single.From](https://docs.microsoft.com/en-us/powerquery-m/single-from),
+    [Double.From](https://docs.microsoft.com/en-us/powerquery-m/double-from),
+    [Logical.From](https://docs.microsoft.com/en-us/powerquery-m/logical-from),
+    [Logical.FromText](https://docs.microsoft.com/en-us/powerquery-m/logical-fromtext),
+    [Logical.ToText](https://docs.microsoft.com/en-us/powerquery-m/logical-totext),
+    [Text.From](https://docs.microsoft.com/en-us/powerquery-m/text-from),
+    [Date.From](https://docs.microsoft.com/en-us/powerquery-m/date-from),
+    [Date.FromText](https://docs.microsoft.com/en-us/powerquery-m/date-fromtext),
+    [Date.ToText](https://docs.microsoft.com/en-us/powerquery-m/date-totext),
+    [DateTime.From](https://docs.microsoft.com/en-us/powerquery-m/datetime-from),
+    [DateTime.FromText](https://docs.microsoft.com/en-us/powerquery-m/datetime-fromtext),
+    [DateTime.ToText](https://docs.microsoft.com/en-us/powerquery-m/datetime-totext))
 
 -   If expressions (but branches must have matching types)
 
