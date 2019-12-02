@@ -7,18 +7,17 @@ FAQs
    1. Australia East
    2. Canada Central
    3. Central India
-   4. Central US
-   5. East US
-   6. East US 2
-   7. Japan East
-   8. North Europe
-   9. Southeast Asia
-   10. South Central US
-   11. UK South
-   12. West Central US
-   13. West Europe
-   14. West US
-   15. West US 2
+   4. East US
+   5. East US 2
+   6. Japan East
+   7. North Europe
+   8. Southeast Asia
+   9. South Central US
+   10. UK South
+   11. West Central US
+   12. West Europe
+   13. West US
+   14. West US 2
 
 2. What are the limitations and constraints with Wrangling data flow?
    1. Following type of V2 datasets are supported:
